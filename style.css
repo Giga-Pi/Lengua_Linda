@@ -1,16 +1,150 @@
+/*NavBar*/
 .navbar {
-	background-color: #91e4fb !important;
+	font-family: Century Gothic, sans serif;
+	font-weight: bold;
 }
-.nav-link, .navbar-brand {
-	color: black;
-}
+
 .nav-link, .navbar-brand:hover {
 	color: grey;
 }
 
+/*Carousel*/
 .carousel {
 	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+/*YouTube Video*/
+.YouTubeVideo {
+	margin-top: 100px;
+}
+
+/*Table*/
+table, th, td{
+	border: 2px solid black;
+	border-spacing: 0;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+th {
+	padding: 10px;
+	background-color: #f6a2bf;
+	font-size: 20px;
+}
+
+td {
+	padding: 20px;
+	background-color: #ffeaf1;
+	font-family: verdana, san serif;
+}
+
+/*Custom Dividers*/
+.pinkdivider {
+	font-family: Century Gothic, sans serif;
+	background-color: #ffeaf1;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 20px;
+}
+
+.bluedivider {
+	font-family: Century Gothic, sans serif;
+	background-color: #c0f1ff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 20px;
+}
+
+.smalldivider {
+	font-family: Century Gothic, sans serif;
+	padding-top: 5px;
+	padding-bottom: 0px;
+	margin-top: 10px;
+	border-bottom-color: black;
+}
+
+.textsection {
+	font-family: verdana, san serif;
+	color: black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.textsecpink {
+	font-family: verdana, san serif;
+	color: black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #ffeaf1;
+}
+
+.buffer {
+	margin-bottom: 100px;
+}
+
+.contactinfo {
+	font-family: Century Gothic, sans serif;
+	margin-top: 100px;
+}
+
+.contacttext {
+	font-family: verdana, san serif;
+}
+
+#pinkbtn {
+	font-family: verdana, san serif;
+	background-color: #fad2e0;
+	color: black;
+	border-color: black;
+	border-width: 2px;
+}
+
+#pinkbtn:hover {
+	font-family: verdana, san serif;
+	background-color: #f6a2bf;
+	color: white;
+	border-color: black;
+	border-width: 2px;
+}
+
+/*Custom Text Colors*/
+#bluetext {
+	color: #91e4fb;
+}
+
+#bluetext-lite {
+	color: #c0f1ff;
+}
+
+#pinktext {
+	color: #f6a2bf;
+}
+
+#pinktext-lite {
+	color: #fad2e0;
+}
+
+/*Custom Background Colors*/
+#blue-bg {
+	background-color: #91e4fb;
+}
+
+#blue-bg-lite {
+	background-color: #c0f1ff;
+}
+
+#pink-bg {
+	background-color: #f6a2bf;
+}
+
+#pink-bg-lite {
+	background-color: #fad2e0;
 }
