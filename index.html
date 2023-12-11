@@ -6,64 +6,77 @@
 		<title>Lengua Linda</title>
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
 		rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-		
+		<!--My custom SVG file-->
+		<link rel="icon" href="Logo.svg">
 		<link href="style.css" rel="stylesheet">
-	
+		
+		<!--Photo Background-->
+		<style>
+			body {
+			background-image: url('jezael-melgoza.png');
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+			}
+		</style>
+		
 	</head>
 	
 	<body>
-
-	<!--Navigation-->
-	<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-		<div class="container-fluid">
-			<a class="navbar-brand" href="index.html"> <img src="LindaBannerSmall.png" class="d-block w-100" alt="Slide 1"></a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="index.html">HOME</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="about.html">ABOUT</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="favresources.html">FAVORITE RESOURCES</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="myresources.html">MY RESOURCES</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="contactme.html">CONTACT ME</a>
-					</li>
-				</ul>
+	
+		<!--Navigation-->
+		<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html"> <img src="LindaBannerSmall.png"></img> </a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">ABOUT</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="favresources.html">FAVORITE RESOURCES</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="myresources.html">MY RESOURCES</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contactme.html">CONTACT ME</a>
+						</li>
+					</ul>
+				</div>
 			</div>
-		</div>
-	</nav>
+		</nav>
 	
 	<main>
 		
-	<div class="buffer"></div>
+		<div class="buffer"></div>
 		
-		<div class="YouTubeVideo">
-			<center>
-			<iframe width="560" height="315" 
-			src="https://www.youtube.com/embed/0v0RBUvk-BA?si=Uvvqxkl_lQ75sr1W" 
-			title="YouTube video player" 
-			frameborder="0" 
-			allow="accelerometer; autoplay; clipboard-write; 
-			encrypted-media; gyroscope; picture-in-picture; 
-			web-share" allowfullscreen>
-			</iframe>
-			</center>
+		<!--YouTube Video-->
+		<div class="holder">
+			<div class="yt-holder">
+				<iframe 
+				width="560" height="315"
+				src="https://www.youtube.com/embed/0v0RBUvk-BA?si=Uvvqxkl_lQ75sr1W" 
+				title="YouTube video player" 
+				frameborder="0" 
+				allow="accelerometer; autoplay; clipboard-write; 
+				encrypted-media; gyroscope; picture-in-picture; 
+				web-share" allowfullscreen>
+				</iframe>
+			</div>
 		</div>
-	
-	<div class="buffer"></div>
+		
+		<div class="buffer"></div>
 
 	</main>
 	
-	<footer class="footer mt-auto py-3 fixed-bottom bg-dark navbar-dark text-light">
+	<footer class="footer mt-auto py-3 bg-dark navbar-dark text-light">
 		<div class="container">
 			<div class="row">
 				Copyright &copy; 2024. All Rights Reserved.
